@@ -1,0 +1,124 @@
+.section{
+    min-width:320px;
+    font-family:"proxima-nova", Arial, Helvetica, sans-serif;font-size:16px;
+    color:#444;
+    background: #ededed;
+}
+
+.sign-up{
+    width:600px;
+    margin:0 auto;
+}
+
+.sign-up legend{
+    font-size:20px;
+    color:#444;
+    font-weight:300;
+}
+
+.form label{
+    display:block;
+    margin-top:6px;
+    font-size:13px;
+    font-weight:700;
+    color:#666;
+}
+
+
+.form span .big_box{
+    width:95%;
+    height:300px;
+    padding:12px;
+    border:1px solid #dadada;
+    background:#fff;
+    box-sizing:border-box;
+}
+
+.form span .box{
+    width:95%;
+    padding:12px;
+    border:1px solid #dadada;
+    background:#fff;
+    box-sizing:border-box;
+}
+
+.form span .box_date{
+    width: 100px;
+    padding:12px;
+    border:1px solid #dadada;
+    background:#fff;
+    box-sizing:border-box;
+}
+.form .box_{
+    padding-left: 25px; 
+    float:left;
+    width:530px;
+}
+
+
+.form .box_left{
+    padding-left: 25px; 
+    float:left;
+    width:255px;
+    margin-right:10px
+}
+
+.form .box_right{
+    float:left;
+    width:255px
+}
+
+.form .box_big{
+    padding-left: 25px; 
+    float:left;
+    width:530px;
+    height: 500px;
+}
+
+
+
+.form input[type="submit"]{
+    margin-top:30px;
+    margin-left: 100px;
+    width:350px;
+    height:50px;
+    line-height:50px;
+    border:0 none;
+    font-size:16px;
+    font-weight:700;
+    text-align:center;
+    color:#fff;
+    background:#99cc00;
+
+}
+
+.date,
+.time {
+    font-size: 20px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 3px;
+    background: #dde;
+    border: 1px solid #aac;
+}
+
+.date {
+    width: 150px;
+}
+
+.time {
+    width: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

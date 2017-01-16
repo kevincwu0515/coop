@@ -1,0 +1,131 @@
+/* posting box */
+.box{
+    font-family: Helvetica,Arial,sans-serif;
+    width: 800px;
+    padding: 15px;
+    /*margin-left: 50px;*/
+    border: 2px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.box h2{
+    color:#404247
+}
+a:hover .box{ 
+    background-color: #e6e6e6;
+}
+
+a:visited, a:link, a:active {
+    text-decoration: none;
+    color:#000000;
+}
+
+.tab
+{
+    margin-left: 15px;
+}
+.postingsection {
+    width: 800px;
+    margin: 0 auto;
+    margin-left: 50px;
+    text-align: left;
+    margin-bottom: 120px;
+    display: inline-block;
+}
+/* Posting bar */
+body {
+    font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    color: #4E5A5E;
+}
+body, h4, li, ul {
+    margin: 0;
+    padding: 0;
+}
+
+li, ul{
+    list-style:none
+}
+
+.preferbox {
+    margin: 0;
+    padding: 0;
+    width:200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.preferbox-list{
+    margin-top:.625rem
+}
+
+.preferbox-list-item{
+    margin-top:3px
+}
+
+.preferbox-list-item_label{
+    margin-left:.375rem;
+    margin-top:0;
+    padding:0;
+    color:#40545C;
+    font-size:.875rem
+}
+
+.preferbox-list-item_label2 {
+    font-size:12px;color:#8A9599
+}
+
+.radio__input{
+    position:absolute;
+    width:1px;
+    height:1px;
+}
+
+.radio__fill{
+    width:18px;
+    height:18px;
+    border:1px solid #879cab;
+    display:inline-block;
+    position:relative;  
+    border-radius:50%
+}
+
+.radio__fill:hover{
+    background-color:#E3E8E9
+}
+
+.radio__fill::after{
+    border-radius:50%;
+    background-color:#00ADEF
+}
+
+.radio__fill::after{
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+    width:12px;
+    height:12px;
+}
+
+.checkbox__fill::after,.checkbox__input:checked~
+.radio__fill::after,.radio__input:checked~
+.checkbox__fill::after,.radio__input:checked~
+.radio__fill::after{
+    content:''
+}
+
+.selected{
+    width:12px;
+    height:12px;
+    display:inline-block;
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+    border-radius:50%;
+    background-color:#00ADEF
+}

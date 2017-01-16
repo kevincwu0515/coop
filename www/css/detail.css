@@ -1,0 +1,33 @@
+body {
+    background: url('/includes/images/background/lighter_geometric.png');
+}
+.section {
+    width: 1200px;
+    min-height: 800px;
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-left: 25px;
+    text-align: left;
+    margin-bottom: 120px;
+    border: 1px solid #c9c9c9;
+}
+span{
+    margin-left: 15px;
+}
+.jobdesc {
+    font-size: 18px;
+    width: 600px;
+    padding-left: 50px;
+    text-align: left;
+    margin-bottom: 120px;
+    line-height: 32px;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+     color:blue;
+}
+a:active, a:hover { 
+    color:#b9bc00; 
+}

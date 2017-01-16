@@ -1,0 +1,19 @@
+input.date,
+input.time {
+    font-size: 20px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 3px;
+    background: #dde;
+    border: 1px solid #aac;
+}
+
+input.date {
+    width: 150px;
+}
+
+input.time {
+    width: 80px;
+    margin-left: 50px;
+}

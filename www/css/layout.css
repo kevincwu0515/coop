@@ -1,0 +1,135 @@
+/* General */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* Header */
+.header {
+    height: 155px;
+    min-width: 1200px;
+
+    background: url("/images/layout/header_background.jpg");
+    background-position: top center;
+}
+
+.header .container {
+    width: 1200px;
+    margin: 0 auto;
+
+    overflow: hidden;
+    position: relative;
+}
+
+.header .container .logo {
+    float: left;
+    height: 120px;
+    width: 280px;
+    display: inline-block;
+}
+
+.header .container .searchBar {
+    float: left;
+    height: 40px;
+    width: 502px;
+
+    margin-top: 60px;
+    padding-bottom: 1px;
+
+    border: 3px solid #dd2727;
+    background-color: #dd2727;
+
+    display: inline-block;
+}
+
+.header .container .searchBar input{
+    height: 40px;
+    width: 405px;
+    line-height: 40px;
+    border: none;
+    border-right: none;
+    outline: none;
+    padding: 0 10px;
+    color: #767676;
+    float: left;
+    display: inline-block;
+}
+
+/* Navbar */
+.navBar{
+    height: 60px;
+    font-family: 'Microsoft YaHei';
+    font-size: 0;
+    background-image: url("/images/layout/nav_main_bak.png");
+    background-repeat: repeat-x;
+}
+
+.navBar .container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 25px;
+}
+
+.navBar .container .item{
+    height: 46px;
+    width: 130px;
+    line-height: 46px;
+    margin-left: -26px;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    background-image: url("/images/layout/nav_bak.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navBar .container .item:hover{
+    background-image: url("/images/layout/nav_bak_active.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.navBar .container .active{
+    background-image: url("/images/layout/nav_bak_active.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.navBar .container .btn{
+    margin-top: 6px;
+    margin-right: 3px;
+    float: right;
+}
+
+.navBar ul li{
+    float: left;
+}
+/* footer */
+footer {
+    margin-top: 150px;
+    bottom: 0px;
+}
+
+footer a {
+    color: #888;
+}
+
+footer span {
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Body (for student and employer page only) */
+body {
+    background: url('/includes/images/background/lighter_geometric.png');
+}
+
+.section {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: left;
+    margin-bottom: 120px;
+}
